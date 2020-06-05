@@ -1,3 +1,6 @@
-$("p").click(function() {
-    $("p").slideToggle("slow");
+$("button").mouseeneter(function() {
+    $(this).removeClass("makeRed").addClass("makeBlue");
+});
+$("button").mouseleave(function() {
+    $(this).removeClass("makeBlue").addClass("makeRed");
 });
